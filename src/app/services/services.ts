@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { take } from 'rxjs/operators';
 import { Injectable } from '@angular/core';
 import { Configuration } from '../mock/configuration';
-import lectures from '../mock/lectures_json.json';
+import lectures from '../mock/lectures.json';
 
 @Injectable()
 export class Services {
